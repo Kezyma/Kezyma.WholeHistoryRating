@@ -4,6 +4,10 @@ C# Port of the Whole History Rating system from Ruby https://github.com/goshrine
 
 Usage:
 
+Install the package from nuget: https://www.nuget.org/packages/Kezyma.WholeHistoryRating/
+
+        Install-Package Kezyma.WholeHistoryRating -Version 1.0.1
+
 Create a new instance of the WholeHistoryRating and supply a config.
 The parameters for the config are the w2 value as a double and a boolean representing whether draws are allowed.
 
